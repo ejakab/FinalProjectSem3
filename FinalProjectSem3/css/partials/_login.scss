@@ -1,0 +1,72 @@
+﻿#login {
+    height: 100%;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 10% 20% 9% 9% 9% 9% 9% 5% 5% auto;
+
+    .neaslogo {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #tradingsim {
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+
+        h1 {
+            font-weight: 300;
+            margin: 0;
+            justify-self: center;
+            align-self: center;
+        }
+    }
+
+    .titlehead {
+        grid-column: 2/3;
+        grid-row: 4/5;
+
+        h2 {
+            font-weight: 300;
+            margin: 0 0 0 5%;
+            align-self: center;
+        }
+    }
+
+    #txtEmail {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+
+    #txtPassword {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+ 
+
+    #btnLogin {
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+
+ 
+
+    #lblLoginError {
+        grid-column: 2/3;
+        grid-row: 8/9;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .altreg {
+        grid-column: 2/3;
+        grid-row: 9/10;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #login {
+        grid-template-columns: 8% auto 8%;
+    }
+}

@@ -1,0 +1,75 @@
+﻿#signup {
+    height: 100vh;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 5% 15% 20% 9% 9% 9% 9% 9% 5% 5% auto;
+
+    .neaslogo {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #tradingsimIntro {
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+        h1, p {
+            font-weight: 300;
+            margin: 0;
+            justify-self: center;
+            align-self: center;
+        }
+
+        p {
+            text-align: center;
+            margin: 0 15% 4% 15%;
+        }
+    }
+
+    .titlehead {
+        grid-column: 2/3;
+        grid-row: 4/5;
+
+        h2 {
+            font-weight: 300;
+            margin: 0 0 0 5%;
+            align-self: center;
+        }
+    }
+
+    #txtEmail {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    #txtPassword {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    #txtPassword2 {
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+
+    #btnSignUp {
+        grid-column: 2/3;
+        grid-row: 8/9;
+    }
+
+    #lblErrorSignUp {
+        grid-column: 2/3;
+        grid-row: 9/10;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .altreg {
+        grid-column: 2/3;
+        grid-row: 10/11;
+    }
+}
+@media only screen and (max-width : 1024px){
+    #login {
+        grid-template-columns: 8% auto 8%;
+    }
+} 
