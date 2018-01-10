@@ -65,32 +65,107 @@
                         </li>
                         <li>
                             <asp:Button ID="btnEX" runat="server" Text="EXCHANGE" CssClass="r30 r-hoverable btnAction240" PostBackUrl="~/ExchangeMarket.aspx" />
-                        </li> 
-                    </ul> 
-                <div class="pluspiece r40"></div>
+                        </li>
+                    </ul>
+                    <div class="pluspiece r40"></div>
             </aside>
-                <section class="results subgrid">
-                    <div class="titlehead r40 subgrid">
-                        <h3>
-                            Results
-                        </h3>
-                    </div>
-                    <div class="results-graph r40"></div>
-                    <div class="results-table r40">
 
+            <section class="results subgrid">
+                <div class="titlehead r40 subgrid">
+                    <h3>Results
+                    </h3>
+                </div>
+                <div class="results-graph r40"></div>
+                <div class="results-table r40">
+                </div>
+            </section>
+            <section class="joingame r40 subgrid">
+                <h3>Next game starts in </h3>
+                <p class="timetilnextgame"><i class="pe-7s-clock"></i>14:33:32</p>
+                <asp:Button ID="btnJoin" runat="server" Text="JOIN GAME" CssClass="r30 r-hoverable btnJoin" />
+            </section>
+            <section class="gamerules subgrid">
+                <div class="titlehead r40 subgrid">
+                    <h3>Game rules</h3>
+                </div>
+                <div class="slide r40">
+                    <div class="slide-content">
+                        <h3>
+                            <i class="pe-7s-drawer"></i>
+                            Historical data
+                        </h3>
+                        <p>
+                            This is the drawer with all the information you need to calculate the stock price. It will be available for you as soon as the game begins.
+                        </p>
                     </div>
-                </section>
-                <section class="joingame r40 subgrid">
-                    <h3>Next game starts in </h3>
-                    <p class="timetilnextgame"><i class="pe-7s-clock"></i>14:33:32</p>
-                    <asp:Button ID="btnJoin" runat="server" Text="JOIN GAME" CssClass="r30 r-hoverable btnJoin"/>
-                </section>
-                <section class="gamerules">
-                    <div class="titlehead">
-                         <h3>Game rules</h3>
+                    <div class="slide-content">
+                        <h3>
+                            <i class="pe-7s-bell"></i>
+                            Notifications
+                        </h3>
+                        <p>
+                            At any moment of the game you might be notified about some new from the virtual world that might or might not affect the stock price.
+                        </p>
                     </div>
-                   
-                </section>
+                </div>
+                <div class="slide r40">
+                    <div class="slide-content">
+                        <h3>
+                            <i class="pe-7s-info"></i>
+                            Historical data
+                        </h3>
+                        <p>
+                            This is the drawer with all the information you need to calculate the stock price. It will be available for you as soon as the game begins.
+                        </p>
+                    </div>
+                    <div class="slide-content">
+                        <h3>
+                            <i class="pe-7s-bell"></i>
+                            Notifications
+                        </h3>
+                        <p>
+                            At any moment of the game you might be notified about some new from the virtual world that might or might not affect the stock price. It's up to you to decide whether or not it is important.
+                        </p>
+                    </div>
+                </div>
+                <div class="r30">
+                </div>
+                <button class="prev r30 r-hoverable" type="button">Prev</button>
+                <button class="next r30 r-hoverable" type="button">Next</button>
+            </section>
+
+            <div class="navmobile">
+                <div class="burger r40">
+                    <a href="">
+                        <i class="pe-7s-menu"></i>
+                    </a>
+                    
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li class="r80 r-hoverable r-small">
+                            <a href="">
+                                <img src="img/money-bag-euro-2280_4c3b9115-d519-486c-8087-e1e94d9bde63.png" alt="Over the counter market icon" />
+
+                            </a>
+                        </li>
+                        <li class="r80 r-hoverable r-small">
+                            <a href="">
+                                <img src="img/money-bag-euro-2280_4c3b9115-d519-486c-8087-e1e94d9bde63.png" alt="Over the counter market icon" />
+
+                            </a>
+
+
+                        </li>
+                        <li class="r80 r-hoverable r-small">
+                            <a href="">
+                                <img src="img/money-bag-euro-2280_4c3b9115-d519-486c-8087-e1e94d9bde63.png" alt="Over the counter market icon" />
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </form>
 </body>
