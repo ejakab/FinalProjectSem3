@@ -99,8 +99,15 @@
     <Content Include="Default.aspx" />
     <Content Include="ExchangeMarket.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\angle-down-white.svg" />
+    <Content Include="img\angle-up-white.svg" />
     <Content Include="img\bg.jpg" />
+    <Content Include="img\icons8-transmission-tower-50.png" />
+    <Content Include="img\menu-18_451158df-85d7-429c-af14-307a5ae5e237.png" />
     <Content Include="img\money-bag-euro-2280_4c3b9115-d519-486c-8087-e1e94d9bde63.png" />
+    <Content Include="img\Neas_logo_neg.png" />
+    <Content Include="img\Orion_handshake.png" />
+    <Content Include="img\pay-2285_011e7de0-ed59-45c5-805e-7dcf300fbc9c.png" />
     <Content Include="js\main.js" />
     <Content Include="Lobby.aspx" />
     <Content Include="OverTheCounterMarket.aspx" />
